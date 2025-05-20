@@ -1,0 +1,40 @@
+uuid: 691656bf-ec4f-40d2-95b5-d0fe9cf0cebb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_clp2_clp_requirements
+    - paragraphs.paragraphs_type.cl_points_requirements
+    - paragraphs.paragraphs_type.cl_points_requirements_container
+  module:
+    - entity_reference_revisions
+id: paragraph.cl_points_requirements_container.field_clp2_clp_requirements
+field_name: field_clp2_clp_requirements
+entity_type: paragraph
+bundle: cl_points_requirements_container
+label: 'CL Points Requirements'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cl_points_requirements: cl_points_requirements
+    negate: 0
+    target_bundles_drag_drop:
+      cl_points_requirements:
+        weight: 5
+        enabled: true
+      cl_points_requirements_container:
+        weight: 6
+        enabled: false
+      from_library:
+        weight: 7
+        enabled: false
+      learning_sample_activities:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

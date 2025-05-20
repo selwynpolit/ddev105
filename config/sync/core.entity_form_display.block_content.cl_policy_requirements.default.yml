@@ -1,0 +1,60 @@
+uuid: ebb58f31-ba92-4d4f-b7b7-43bf7b5b84f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cl_policy_requirements
+    - field.field.block_content.cl_policy_requirements.body
+    - field.field.block_content.cl_policy_requirements.field_description
+    - field.field.block_content.cl_policy_requirements.field_heading
+    - field.field.block_content.cl_policy_requirements.field_pdf_files
+    - field.field.block_content.cl_policy_requirements.field_subheading
+  module:
+    - media_library
+    - text
+id: block_content.cl_policy_requirements.default
+targetEntityType: block_content
+bundle: cl_policy_requirements
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_pdf_files:
+    type: media_library_widget
+    weight: 3
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_subheading:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true

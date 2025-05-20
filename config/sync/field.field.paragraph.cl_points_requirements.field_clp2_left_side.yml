@@ -1,0 +1,24 @@
+uuid: eb001697-242c-4554-8f59-aa163fe62d36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_clp2_left_side
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.cl_points_requirements
+  module:
+    - text
+id: paragraph.cl_points_requirements.field_clp2_left_side
+field_name: field_clp2_left_side
+entity_type: paragraph
+bundle: cl_points_requirements
+label: 'Left Side'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

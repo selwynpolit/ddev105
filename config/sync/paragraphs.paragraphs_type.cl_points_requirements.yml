@@ -1,0 +1,10 @@
+uuid: 75e3ec36-4d3f-4e11-ad1c-9f61a83d5718
+langcode: en
+status: true
+dependencies: {  }
+id: cl_points_requirements
+label: 'CLP Requirements'
+icon_uuid: null
+icon_default: null
+description: 'Continuous Learning Points (CLP) Requirements that go into a CL points Requirements container'
+behavior_plugins: {  }

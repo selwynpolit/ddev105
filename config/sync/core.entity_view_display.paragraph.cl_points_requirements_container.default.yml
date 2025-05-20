@@ -1,0 +1,47 @@
+uuid: cc08b072-c5c0-465d-9fa6-40de67bfca34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cl_points_requirements_container.field_clp2_clp_requirements
+    - field.field.paragraph.cl_points_requirements_container.field_clp2_heading_link
+    - field.field.paragraph.cl_points_requirements_container.field_clp2_heading_text
+    - paragraphs.paragraphs_type.cl_points_requirements_container
+  module:
+    - entity_reference_revisions
+    - link
+id: paragraph.cl_points_requirements_container.default
+targetEntityType: paragraph
+bundle: cl_points_requirements_container
+mode: default
+content:
+  field_clp2_clp_requirements:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_clp2_heading_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_clp2_heading_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

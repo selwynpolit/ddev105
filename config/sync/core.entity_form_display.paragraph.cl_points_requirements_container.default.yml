@@ -1,0 +1,54 @@
+uuid: 54ea5ac2-aa12-42f7-ba55-2859b4d0dcd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cl_points_requirements_container.field_clp2_clp_requirements
+    - field.field.paragraph.cl_points_requirements_container.field_clp2_heading_link
+    - field.field.paragraph.cl_points_requirements_container.field_clp2_heading_text
+    - paragraphs.paragraphs_type.cl_points_requirements_container
+  module:
+    - link
+    - paragraphs
+id: paragraph.cl_points_requirements_container.default
+targetEntityType: paragraph
+bundle: cl_points_requirements_container
+mode: default
+content:
+  field_clp2_clp_requirements:
+    type: paragraphs
+    weight: 2
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_clp2_heading_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_clp2_heading_text:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

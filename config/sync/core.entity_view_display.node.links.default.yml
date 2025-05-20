@@ -1,0 +1,51 @@
+uuid: 14b8ec69-e53c-48e5-a6a0-228b8cdf7eab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.links.field_link
+    - field.field.node.links.field_text_1
+    - field.field.node.links.field_text_2
+    - node.type.links
+  module:
+    - link
+    - user
+id: node.links.default
+targetEntityType: node
+bundle: links
+mode: default
+content:
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_text_1:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_text_2:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

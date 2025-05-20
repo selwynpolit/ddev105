@@ -1,0 +1,51 @@
+uuid: e34c26c4-c903-4907-9cc1-4fcb4a34aa28
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.meeting_clp_requirements
+    - field.field.block_content.meeting_clp_requirements.field_clsa_sample_activities
+    - field.field.block_content.meeting_clp_requirements.field_mclr_description
+    - field.field.block_content.meeting_clp_requirements.field_mclr_heading
+    - field.field.block_content.meeting_clp_requirements.field_mclr_subheading
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.meeting_clp_requirements.default
+targetEntityType: block_content
+bundle: meeting_clp_requirements
+mode: default
+content:
+  field_clsa_sample_activities:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_mclr_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_mclr_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_mclr_subheading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

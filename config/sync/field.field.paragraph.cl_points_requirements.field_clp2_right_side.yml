@@ -1,0 +1,24 @@
+uuid: 0395c1e9-3361-499f-93c3-4d486f15718c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_clp2_right_side
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.cl_points_requirements
+  module:
+    - text
+id: paragraph.cl_points_requirements.field_clp2_right_side
+field_name: field_clp2_right_side
+entity_type: paragraph
+bundle: cl_points_requirements
+label: 'Right Side'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

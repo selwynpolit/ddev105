@@ -1,0 +1,21 @@
+uuid: 1e1038c4-d1a2-417d-975f-940b0f0fff6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cl_policy_requirements
+    - field.storage.block_content.field_subheading
+id: block_content.cl_policy_requirements.field_subheading
+field_name: field_subheading
+entity_type: block_content
+bundle: cl_policy_requirements
+label: Subheading
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Quick Reference Links'
+default_value_callback: ''
+settings: {  }
+field_type: string

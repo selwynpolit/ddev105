@@ -1,0 +1,19 @@
+uuid: ef7191cc-34d3-4403-bd11-b9c8b884a79e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_2
+    - node.type.links
+id: node.links.field_text_2
+field_name: field_text_2
+entity_type: node
+bundle: links
+label: 'Text 2'
+description: 'This text is for the right side'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

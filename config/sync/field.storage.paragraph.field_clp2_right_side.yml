@@ -1,0 +1,19 @@
+uuid: b4cbe211-d367-4e3d-b4ec-5fb34eb6aa8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_clp2_right_side
+field_name: field_clp2_right_side
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

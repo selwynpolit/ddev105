@@ -1,0 +1,30 @@
+uuid: 236a9848-b100-4adc-860b-4c5469a2c305
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.cl_points_requirements.field_clp2_left_side
+    - field.field.paragraph.cl_points_requirements.field_clp2_right_side
+    - paragraphs.paragraphs_type.cl_points_requirements
+  module:
+    - text
+id: paragraph.cl_points_requirements.default
+targetEntityType: paragraph
+bundle: cl_points_requirements
+mode: default
+content:
+  field_clp2_left_side:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_clp2_right_side:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

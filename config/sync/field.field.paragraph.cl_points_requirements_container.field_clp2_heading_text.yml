@@ -1,0 +1,19 @@
+uuid: 674c0135-e6c3-4c81-ab77-567a6e7f450c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_clp2_heading_text
+    - paragraphs.paragraphs_type.cl_points_requirements_container
+id: paragraph.cl_points_requirements_container.field_clp2_heading_text
+field_name: field_clp2_heading_text
+entity_type: paragraph
+bundle: cl_points_requirements_container
+label: 'Heading Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

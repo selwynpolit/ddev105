@@ -1,0 +1,19 @@
+uuid: 50c0bb6b-6e64-4111-8518-b413ddecfcec
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clp_points_requirements
+    - field.storage.block_content.field_heading
+id: block_content.clp_points_requirements.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: clp_points_requirements
+label: Heading
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

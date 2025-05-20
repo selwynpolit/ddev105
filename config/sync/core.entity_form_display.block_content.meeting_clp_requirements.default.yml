@@ -1,0 +1,71 @@
+uuid: 2340feab-6c34-4676-abb9-05efd2bf2e61
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.meeting_clp_requirements
+    - field.field.block_content.meeting_clp_requirements.field_clsa_sample_activities
+    - field.field.block_content.meeting_clp_requirements.field_mclr_description
+    - field.field.block_content.meeting_clp_requirements.field_mclr_heading
+    - field.field.block_content.meeting_clp_requirements.field_mclr_subheading
+  module:
+    - paragraphs
+    - text
+id: block_content.meeting_clp_requirements.default
+targetEntityType: block_content
+bundle: meeting_clp_requirements
+mode: default
+content:
+  field_clsa_sample_activities:
+    type: paragraphs
+    weight: 26
+    region: content
+    settings:
+      title: Activity
+      title_plural: Activities
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: learning_sample_activities
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        convert: '0'
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_mclr_description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_mclr_heading:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_mclr_subheading:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

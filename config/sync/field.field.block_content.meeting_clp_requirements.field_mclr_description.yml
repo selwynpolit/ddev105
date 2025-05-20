@@ -1,0 +1,24 @@
+uuid: 9eb7d40c-4973-4cea-834d-b7ac41edab7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.meeting_clp_requirements
+    - field.storage.block_content.field_mclr_description
+    - filter.format.basic_html
+  module:
+    - text
+id: block_content.meeting_clp_requirements.field_mclr_description
+field_name: field_mclr_description
+entity_type: block_content
+bundle: meeting_clp_requirements
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

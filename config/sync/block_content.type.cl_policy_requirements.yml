@@ -1,0 +1,8 @@
+uuid: de997fea-e6e0-438e-b262-27a9677fa1ee
+langcode: en
+status: true
+dependencies: {  }
+id: cl_policy_requirements
+label: 'CL Policy Requirements'
+revision: true
+description: 'Continuous Learning (CL) Policy Requirements block for Continuous Learning Page'

@@ -1,0 +1,33 @@
+uuid: 747ec044-650a-45d7-85cc-e652bc5798a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clp_points_requirements
+    - field.field.block_content.clp_points_requirements.field_heading
+    - field.field.block_content.clp_points_requirements.field_requirements_containers
+  module:
+    - entity_reference_revisions
+id: block_content.clp_points_requirements.default
+targetEntityType: block_content
+bundle: clp_points_requirements
+mode: default
+content:
+  field_heading:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_requirements_containers:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

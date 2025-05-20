@@ -1,0 +1,8 @@
+uuid: 0148521f-34b4-48d7-9bbc-b6b21b88ee68
+langcode: en
+status: true
+dependencies: {  }
+id: meeting_clp_requirements
+label: 'Meeting CLP Requirements'
+revision: true
+description: 'Meeting CLP Requirements block for Continuous Learning page'

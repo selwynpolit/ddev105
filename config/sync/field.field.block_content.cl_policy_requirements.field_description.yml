@@ -1,0 +1,24 @@
+uuid: af0d4bb5-16fc-42a4-853c-173aa1a0f371
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cl_policy_requirements
+    - field.storage.block_content.field_description
+    - filter.format.basic_html
+  module:
+    - text
+id: block_content.cl_policy_requirements.field_description
+field_name: field_description
+entity_type: block_content
+bundle: cl_policy_requirements
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

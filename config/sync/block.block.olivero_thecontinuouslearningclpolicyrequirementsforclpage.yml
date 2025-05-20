@@ -1,0 +1,30 @@
+uuid: 68e67b0b-20d6-454e-a835-6ebb3d585b47
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:cl_policy_requirements:5a553edf-566e-4d48-a3f0-f07228e4ea74'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_thecontinuouslearningclpolicyrequirementsforclpage
+theme: olivero
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:5a553edf-566e-4d48-a3f0-f07228e4ea74'
+settings:
+  id: 'block_content:5a553edf-566e-4d48-a3f0-f07228e4ea74'
+  label: 'The Continuous Learning (CL) Policy Requirements for CL page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/node/1\r\n"

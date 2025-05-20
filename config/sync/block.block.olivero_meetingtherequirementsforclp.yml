@@ -1,0 +1,30 @@
+uuid: 0069e497-3747-4c7f-90dd-7031005425d8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:meeting_clp_requirements:ff8180b5-d97e-4695-96a2-ac5014c97583'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_meetingtherequirementsforclp
+theme: olivero
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:ff8180b5-d97e-4695-96a2-ac5014c97583'
+settings:
+  id: 'block_content:ff8180b5-d97e-4695-96a2-ac5014c97583'
+  label: 'Meeting the Requirements for Continuous Learning Points (CLPs) for CL page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/node/1\r\n"

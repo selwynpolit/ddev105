@@ -1,0 +1,15 @@
+uuid: fe46d720-b37c-4c19-add4-ca3ad9250721
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+id: learning_sample_activities
+label: 'Learning Sample Activities'
+icon_uuid: null
+icon_default: null
+description: 'Sample activity and points for Meeting CLP requirements block on Continuous Learning page'
+behavior_plugins: {  }

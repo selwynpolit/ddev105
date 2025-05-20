@@ -1,0 +1,43 @@
+uuid: 8939d2ae-159d-4c3e-84ad-a1e972927ff5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.learning_sample_activities.field_clsa_activity_link
+    - field.field.paragraph.learning_sample_activities.field_clsa_points
+    - field.field.paragraph.learning_sample_activities.field_clsa_sample_activity
+    - paragraphs.paragraphs_type.learning_sample_activities
+  module:
+    - link
+id: paragraph.learning_sample_activities.default
+targetEntityType: paragraph
+bundle: learning_sample_activities
+mode: default
+content:
+  field_clsa_activity_link:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_clsa_points:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_clsa_sample_activity:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

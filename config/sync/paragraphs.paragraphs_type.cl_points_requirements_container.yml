@@ -1,0 +1,10 @@
+uuid: 1cd9de8d-a43d-4730-8eb2-15120fc9e14b
+langcode: en
+status: true
+dependencies: {  }
+id: cl_points_requirements_container
+label: 'CLP Requirements Container'
+icon_uuid: null
+icon_default: null
+description: 'Container for CLP Points paragraphs'
+behavior_plugins: {  }

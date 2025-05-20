@@ -1,0 +1,30 @@
+uuid: 3716123d-a3f8-435f-a6ed-dd22f6ec5ea9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:clp_points_requirements:81ea7b5e-be02-4e8d-9175-3cc6f4ff7468'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_faccprofessional
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:81ea7b5e-be02-4e8d-9175-3cc6f4ff7468'
+settings:
+  id: 'block_content:81ea7b5e-be02-4e8d-9175-3cc6f4ff7468'
+  label: 'CLP Requirements Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/1

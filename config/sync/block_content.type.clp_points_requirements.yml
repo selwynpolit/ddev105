@@ -1,0 +1,8 @@
+uuid: 0774696d-b2be-42a9-a64f-d365f3487de3
+langcode: en
+status: true
+dependencies: {  }
+id: clp_points_requirements
+label: 'CLP Points Requirements'
+revision: true
+description: 'Continuous Learning Points (CLP) Requirements'
