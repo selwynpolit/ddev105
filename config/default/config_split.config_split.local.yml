@@ -1,0 +1,17 @@
+uuid: 4c5ce87a-68b4-4a39-bb15-cdcf485a0374
+langcode: en
+status: true
+dependencies: {  }
+id: local
+label: Local
+description: 'Local config split settings'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/local
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list:
+  - dblog.settings

@@ -1,0 +1,18 @@
+uuid: 127bf9a4-4f6f-4c37-8eda-9d28474cb2b7
+langcode: en
+status: true
+dependencies: {  }
+id: prod
+label: Prod
+description: 'Production config split settings'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/prod
+module:
+  cron_fail_alert: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - dblog.settings

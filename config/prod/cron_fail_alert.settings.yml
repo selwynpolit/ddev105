@@ -1,0 +1,7 @@
+frequency: 17
+tolerance: 20
+subject: 'URGENT: Drupal cron has failed, please investigate'
+message: 'The scheduled cron has not been running as expected for the last @minutes minutes, and we need someone to investigate the issue as soon as possible at @site'
+to: admin@example.com
+_core:
+  default_config_hash: khSnEtFiGSz3-pPFM3L857pZoL77s7f5fy0PdSebpyE
