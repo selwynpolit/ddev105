@@ -1,4 +1,4 @@
 adding:
-  row_limit: 10000
+  row_limit: 100000
 removing:
-  row_limit: 1000
+  row_limit: 10000
