@@ -1,0 +1,76 @@
+blocks:
+  -
+    info: 'CLP Requirements Block'
+    langcode: en
+    uuid: 81ea7b5e-be02-4e8d-9175-3cc6f4ff7468
+    bundle: clp_points_requirements
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_heading:
+        -
+          value: 'Continuous Learning Points (CLP) Requirements'
+      field_requirements_containers:
+        -
+          target_id: '6'
+          target_revision_id: '48'
+        -
+          target_id: '9'
+          target_revision_id: '51'
+  -
+    info: 'Meeting the Requirements for Continuous Learning Points (CLPs) for CL page'
+    langcode: en
+    uuid: ff8180b5-d97e-4695-96a2-ac5014c97583
+    bundle: meeting_clp_requirements
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_clsa_sample_activities:
+        -
+          target_id: '1'
+          target_revision_id: '17'
+        -
+          target_id: '2'
+          target_revision_id: '18'
+        -
+          target_id: '3'
+          target_revision_id: '19'
+        -
+          target_id: '4'
+          target_revision_id: '20'
+      field_mclr_description:
+        -
+          value: '<p>OFPP Guidance on Meeting the Requirement for Continuous Learning Points (CLPs) which includes the types of activities to obtain CLPs and the amount of CLPs for each type of activity.</p>'
+          format: basic_html
+      field_mclr_heading:
+        -
+          value: 'Meeting the Requirements for Continuous Learning Points (CLPs)'
+      field_mclr_subheading:
+        -
+          value: 'Continuous Learning Sample Activities'
+  -
+    info: 'The Continuous Learning (CL) Policy Requirements for CL page'
+    langcode: en
+    uuid: 5a553edf-566e-4d48-a3f0-f07228e4ea74
+    bundle: cl_policy_requirements
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body: {  }
+      field_description:
+        -
+          value: '<p>Acquisition Workforce (AWF) professionals holding a FAC-C, FAC-COR, or FAC-P/PM certification are required to obtain the required continuous learning points (CLPs) within the two-year common continuous learning period. The current continuous learning period began on May 1, 2024 and ends on April 30, 2026.</p>'
+          format: basic_html
+      field_heading:
+        -
+          value: 'Continuous Learning (CL) Policy Requirements'
+      field_pdf_files:
+        -
+          target_id: '2'
+        -
+          target_id: '3'
+        -
+          target_id: '4'
+      field_subheading:
+        -
+          value: 'Quick Reference Links'
